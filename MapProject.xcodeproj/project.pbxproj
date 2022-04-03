@@ -14,6 +14,7 @@
 		B696C66A27CE6E6200A493B7 /* MapProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B696C66927CE6E6200A493B7 /* MapProjectTests.swift */; };
 		B696C67427CE6E6200A493B7 /* MapProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B696C67327CE6E6200A493B7 /* MapProjectUITests.swift */; };
 		B696C67627CE6E6200A493B7 /* MapProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B696C67527CE6E6200A493B7 /* MapProjectUITestsLaunchTests.swift */; };
+		B696C68327CE704600A493B7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B696C68227CE704600A493B7 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B696C66F27CE6E6200A493B7 /* MapProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B696C67327CE6E6200A493B7 /* MapProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProjectUITests.swift; sourceTree = "<group>"; };
 		B696C67527CE6E6200A493B7 /* MapProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B696C68227CE704600A493B7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				B696C65827CE6E6000A493B7 /* MapProjectApp.swift */,
 				B696C65A27CE6E6000A493B7 /* ContentView.swift */,
+				B696C68227CE704600A493B7 /* MapView.swift */,
 				B696C65C27CE6E6100A493B7 /* Assets.xcassets */,
 				B696C65E27CE6E6100A493B7 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B696C65B27CE6E6000A493B7 /* ContentView.swift in Sources */,
+				B696C68327CE704600A493B7 /* MapView.swift in Sources */,
 				B696C65927CE6E6000A493B7 /* MapProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
